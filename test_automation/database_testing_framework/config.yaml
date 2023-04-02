@@ -1,0 +1,6 @@
+dev:
+  database: 'C:\Users\Andrei_Rastopchin\Desktop\dqe_intermediate_program\test_automation\database_testing_framework\books.db'
+  test_suits_folder: 'C:\Users\Andrei_Rastopchin\Desktop\dqe_intermediate_program\test_automation\database_testing_framework\test_suits\'
+uat:
+  database:
+  test_Data_folder:

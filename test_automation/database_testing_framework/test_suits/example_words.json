@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "test_number": 1,
+      "name": "check count of rows",
+      "query": "SELECT count(*) FROM Example_words",
+      "expected_result_path": "C:\\Users\\Andrei_Rastopchin\\Desktop\\dqe_intermediate_program\\test_automation\\database_testing_framework\\expected_results\\example_words_table\\test1.csv"
+
+    },
+    {
+      "test_number": 2,
+      "name": "check top 3 popular words",
+      "query": "SELECT word FROM Example_words ORDER BY count DESC LIMIT 3",
+      "expected_result_path": "C:\\Users\\Andrei_Rastopchin\\Desktop\\dqe_intermediate_program\\test_automation\\database_testing_framework\\expected_results\\example_words_table\\test2.csv"
+    }
+  ]
+}

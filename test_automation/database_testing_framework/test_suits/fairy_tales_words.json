@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "test_number": 1,
+      "name": "Check average of count in skazki_words table",
+      "query": "SELECT ROUND(AVG(count), 3) as avg FROM skazki_words",
+      "expected_result_path": "C:\\Users\\Andrei_Rastopchin\\Desktop\\dqe_intermediate_program\\test_automation\\database_testing_framework\\expected_results\\skazki_words_table\\test1.csv"
+    },
+    {
+      "test_number": 2,
+      "name": "Check Top 3 words in skazki_words table",
+      "query": "SELECT * FROM skazki_words ORDER BY count DESC LIMIT 3",
+      "expected_result_path": "C:\\Users\\Andrei_Rastopchin\\Desktop\\dqe_intermediate_program\\test_automation\\database_testing_framework\\expected_results\\skazki_words_table\\test2.csv"
+    }
+
+  ]
+}

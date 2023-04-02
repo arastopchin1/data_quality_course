@@ -1,0 +1,3 @@
+
+EXEC query 'TRN', 'hr', '%';
+

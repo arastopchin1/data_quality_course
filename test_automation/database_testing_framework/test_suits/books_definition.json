@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "test_number": 1,
+      "name": "Check paragraphs and words count in books_definition table",
+      "query": "SELECT number_of_paragraph, number_of_words FROM books_definition",
+      "expected_result_path": "C:\\Users\\Andrei_Rastopchin\\Desktop\\dqe_intermediate_program\\test_automation\\database_testing_framework\\expected_results\\books_definition_table\\test1.csv"
+    },
+    {
+      "test_number": 2,
+      "name": "Check if count of words and sum of words with capital & words in lowercase are equal",
+      "query": "SELECT number_of_words, words_with_capital_letters+words_in_lowercase as sum FROM books_definition",
+      "expected_result_path": "C:\\Users\\Andrei_Rastopchin\\Desktop\\dqe_intermediate_program\\test_automation\\database_testing_framework\\expected_results\\books_definition_table\\test2.csv"
+    }
+
+  ]
+}
